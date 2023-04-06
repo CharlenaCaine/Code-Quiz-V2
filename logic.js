@@ -36,17 +36,15 @@ function getQuestion() {
     .lastChild);
   }
 
-  for(var i = 0; i < currentQuestion.choices.length; i++){
-
+  for(var i = 0; i < currentQuestion.choices.length; i++)
    
     var choiceButton = document.createElement("button");
     choiceButton.textContent = currentQuestion.choices[i];
     
-  
     choicesEId
   .appendChild(choiceButton);
   }
-  
+  {
   choicesEId
 .children[0].addEventListener("click", function(event){
     questionClick(choicesEId
