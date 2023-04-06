@@ -1,6 +1,3 @@
-var sfxRight = new Audio("assets/sfx/correct.wav");
-var sfxWrong = new Audio("assets/sfx/incorrect.wav");
-
 var timerEId = document.getElementById("time");
 var time = questions.length * 10;
 var timerId;
